@@ -1,0 +1,486 @@
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption, div {
+    margin: 0;
+    padding: 0px;
+    text-align: left;
+    font-family: "Inter-Regular";
+    font-weight: normal;
+    color: #111111;
+}
+
+body {
+    background-color: #ebebeb;
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    h4 {
+        font-size : 14px;
+    }
+    p { 
+        font-family: "Inter-Regular";
+        font-weight: normal;
+        font-size : 12px;
+    }
+    .date-div {
+        width: 150px;
+        flex-wrap: wrap;
+        padding-right: 5px;
+        display: flex;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+    h4 {
+        font-size : 30px;
+    }
+    p { 
+        font-family: "Inter-Regular";
+        font-weight: normal;
+    }
+    .date-div {
+        width: 75px;
+        flex-wrap: wrap;
+        padding-right: 5px;
+        display: flex;
+        margin-top: 20px;
+    }
+}
+
+
+a {
+    text-decoration: none;
+    color: #111111;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Gemunu Libre";
+}
+
+h2 {
+    font-size: 26px;
+    font-family: "GloryTSI-Regular";
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: -6px;
+    font-family: "GloryTSI-Regular";
+    color: #111111;
+    margin-bottom: 10px;
+}
+
+
+h5 {
+    font-size: 26px;
+    color: #E0EB61;
+}
+
+.banner-title {
+    display: flex;
+    position:absolute;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.posttext {
+    font-size: 10px;
+}
+
+.company {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top:20px;
+}
+
+.position {
+    font-size: 14px;
+    color: #7e7e7e;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    font-family: "GloryTSI-Regular";
+}
+
+.date {
+    font-size: 14px;
+    color: #7e7e7e;
+}
+
+.header {
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.intro {
+    width: 100%; 
+    text-align: center;
+    display: flex; 
+    background-color: #F2F4E9;
+}
+
+.content {
+    float: left;
+    width: 60%;
+    padding: 20px;
+}
+
+.footer {
+    clear: both;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    bottom:0px;
+    text-align: center;
+}
+
+.photo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    flex:4;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-banner {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    padding: 0px;
+    object-fit: cover;
+}
+
+.button {
+    width: 120px;
+    height: 26px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 13px;
+    background-color: #ebebeb;
+    box-shadow: 0px 2px 3px #838383;
+    border: none;
+    outline: none;
+    font-size: 10px;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-text {
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #F2F4E9;
+}
+  
+.button.active {
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d4d4d4;
+    box-shadow: 0px 0px 5px #E0EB61;
+  }
+
+.category {
+    color: #e2e2e2; 
+    font-size : 60px;
+}
+
+.category-container {
+    flex: 1; 
+    padding:10px; 
+    max-height: 30px; 
+    overflow: hidden;
+}
+
+.title {
+    font-size: 40px;
+    color:#949B40;
+}
+
+.storyline {
+    width:20px; 
+    border-left-width:1; 
+    border-left-style:solid; 
+    border-left-color:#E0EB61;
+}
+
+@font-face {
+    font-family: 'Gemunu Libre';
+    src: url('font/GemunuLibre/gemunu-libre.regular.otf');
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('font/inter/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'GloryTSI-Regular';
+    src: url('font/glory/GloryTSI-Regular.ttf');
+}
+
+.cards-container {
+	width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.card_wrapper {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.head_text {
+	font-size: 45px;
+}
+
+.head_para {
+	margin-top: 15px;
+}
+
+.card_box {
+	background: #ffffff;
+	border-radius: 20px;
+	margin-top: 20px;
+	transition: .3s;
+	margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d4d4d4;
+}
+
+.card_box:hover {
+	transform: translateY(-10px);
+    box-shadow: 0px 0px 10px #E0EB61;
+}
+
+.card_text {
+	padding: 15px;
+}
+
+.card_text h4 {
+	font-size: 16px;
+    font-weight:bolder;
+	color: #111111;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card_text p {
+	 font-size: 12px;
+	 line-height: 150%;
+	 margin-top: 10px;
+	 color: #111111;
+}
+
+.slider_carousel .owl-nav {
+	 position: absolute;
+	 top: 50%;
+	 width: 100%;
+}
+
+.slider_carousel .owl-prev, .slider_carousel .owl-next {
+	width: 40px;
+	height: 40px;
+	background: #E0EB61;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+}
+
+.slider_carousel .owl-next {
+    right: -50px;
+}
+
+.slider_carousel .owl-prev {
+    left: -50px;
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+    max-width:fit-content;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #E0EB61;
+}
+  
+summary {
+    font-size: 26px;
+    font-family: "GloryTSI-Regular";
+    margin-bottom: 10px;
+}
+  
+details[open] {
+    padding: 0.5em;
+}
+  
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+}
+
+.scroll-to-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 25px;
+    background-color: #E0EB61;
+    color: #000000;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: none;
+    font-size: 20px;
+}
+
+circle-progress::part(value) {
+    stroke-width: 6px;
+    stroke: #E0EB61;
+    stroke-linecap: round;
+}
+circle-progress::part(circle) {
+    stroke-width: 10px;
+    stroke: #d4d4d4
+}
+
+circle-progress::part(base) {
+    width: 100px; 
+    height: 100px;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+    width: 80px;
+    background-color: #d4d4d4;
+    height: 10px;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.progress {
+    display: flex;
+    background-color: #E0EB61;
+    width: 0;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.gallery-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:1;
+}
+
+
+.lightbox-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lightbox-content {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  .lightbox-img {
+    width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+  }
+
+  .lightbox-description {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+
+
+  .thumbnail {
+    cursor: pointer;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 80px;
+  }
+
+  .thumbnail img {
+    height: 80px;
+    transition: transform 0.2s;
+  }
+
+  .thumbnail:hover img {
+    transform: scale(1.1);
+  }
