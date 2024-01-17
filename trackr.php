@@ -3,18 +3,31 @@
 <head>
     <meta charset="utf-8" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/owl-carousel5-main/owl-carousel/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <title>Trackr</title>
 </head>
 <body>
     <?php 
+        $title = "";
         include 'menu.php'; 
     ?>
     <div class="container">
         <h1 class="title">Trackr</h1></br>
-        <h2>Introducing Trackr</h3></br>
-        <div style="display:flex; flex-direction:row">
-            <img src="img/photos/trackr-icon.png" style="max-width:100px; max-height:100px;">
-            <div style="display:flex; flex-direction:column; padding-left: 20px;">
+        <div style="display:flex; flex-direction: row; flex-wrap: wrap;">
+            <h2>Introducing Trackr</h3></br>
+            <a href="https://github.com/elodiesza/TrackrTrial/tree/master">
+                <img src="img/banner/github.png" style="width: 30px; height:30px; margin-left: 10px">
+            </a>
+            <a href="https://www.figma.com/file/uSvxxclI2wM8NM5ZHoKiwb/Trackr?type=design&node-id=0%3A1&mode=design&t=iG8x3Ys6uBekEc46-1">
+                <img src="img/icons/figma.png" style="width: 20px; height:30px; margin-left: 10px">
+            </a>
+            <a href="https://cloud.protopie.io/p/429358530ec28fbec86db17b">
+                <img src="img/icons/protopie.png" style="width: 30px; height:30px; margin-left: 10px">
+            </a>
+        </div>
+        <div style="display:flex; flex-direction:row;width:100%">
+            <img src="img/photos/Trackr-icon.png" style="max-width:100px; max-height:100px;">
+            <div style=" padding-left: 20px; display:flex; flex-wrap : wrap">
                 <h3>Your Path to Personalized Productivity and Well-Being</h3>
                 <p>
                     In a world defined by data and constant demands, the need for a tool that enables individuals 
@@ -26,22 +39,17 @@
         </div>
         </br>
         <h2>How does it work ?</h2></br>
-        <div style="display:flex; flex-direction:row">
-            <div style="display:flex; flex-direction:column; padding-right: 20px;">
-                <h3>What you have to do : </h3>
-                <p>
-                    
-                    </br>1. Define the habits (bad or good) you want to track and record your data every day in 2 taps.
-                    </br>2. Link your habits to your device's existing records (e.g. steps, sleep, etc.) and forget about it.
-                    </br></br>That's it. Trackr will do the rest.</br>
-                    </br></br><h3>What Trackr does : </h3>
-                    </br>1. Provide you with personalized dashboards to overview your progress.
-                    </br>2. Analyze your data in the background and find correlations between your habits.
-                    </br>3. Provide you with insights and recommendations without any additional input or request.
-                </p></br></br>
-            </div>
-            <img src="img/photos/trackr-thumbnail.png" style="max-width:300px; max-height:300px; padding: 10px">
-        </div>
+        <h3>What you have to do : </h3>
+        <p>
+            </br>1. Define the habits (bad or good) you want to track and record your data every day in 2 taps.
+            </br>2. Link your habits to your device's existing records (e.g. steps, sleep, etc.) and forget about it.
+            </br></br>That's it. Trackr will do the rest.</br>
+            </br></br><h3>What Trackr does : </h3>
+            </br>1. Provide you with personalized dashboards to overview your progress.
+            </br>2. Analyze your data in the background and find correlations between your habits.
+            </br>3. Provide you with insights and recommendations without any additional input or request.
+        </p></br></br>
+        <img src="img/photos/trackr-thumbnail.png" style="max-width:300px; max-height:300px; margin: 20px">
         <details>
             <summary>Value proposition</summary> 
   
@@ -97,7 +105,7 @@
             </p>
         </details>
         </br>
-        <iframe max-width="600px" height="auto" src="https://youtu.be/meF-XBE2qZE" frameborder="0" allowfullscreen></iframe>
+        <iframe max-width="600px" height="auto" src="https://youtube.com/embed/meF-XBE2qZE" frameborder="0" allowfullscreen></iframe>
         </br></br></br>
         <h2>Sample use cases</h3>
         <p>
@@ -120,9 +128,17 @@
             the functions and optimizing every aspect of it, including UX design that became a new interest of mine.
         </p></br>
         <div style="display:flex; flex:1; justify-content:center; flex-direction: row; padding: 20px; flex-wrap: wrap">
-            <img src="img/photos/bullet1.png" style="max-width:200px; height:auto; object-fit: contain;">
-            <img src="img/photos/bullet2.png" style="max-width:200px; height:auto; object-fit: contain;">
-            <img src="img/photos/bullet3.png" style="max-width:200px; height:auto; object-fit: contain;">
+            <div class="gallery-div">
+                <div class="thumbnail" onclick="openLightbox('img/photos/bullet1.png')">
+                    <img src="img/photos/bullet1.png">
+                </div>
+                <div class="thumbnail" onclick="openLightbox('img/photos/bullet2.png')">
+                    <img src="img/photos/bullet2.png">
+                </div>
+                <div class="thumbnail" onclick="openLightbox('img/photos/bullet3.png')">
+                    <img src="img/photos/bullet3.png">
+                </div>
+            </div>
         </div>
         </br>
         <h2>And now ?</h3></br>
@@ -130,8 +146,8 @@
             I am primarily developping Tracker for my own use and mor my vincinity, so I take my time to develop features I consider useful first.
             I have been using paper bullet books for over 6 years and moved to excel 3 years ago to allow for effective calculation. 
             </br>
-            <div style="display:flex; flex:1; justify-content:center; flex-direction: row; padding: 20px; flex-wrap: wrap">
-                <img src="img/photos/exceltrackr.png" style="max-width:600px">
+            <div style="display:flex; justify-content:center; flex-direction: row; padding: 20px; flex-wrap: wrap; width:100%">
+                <img src="img/photos/exceltrackr.png" style="max-width:80%; height:auto; object-fit: contain">
             </div>
 
             </br>I still keep a paper 
@@ -146,11 +162,23 @@
             I am working on improving the design, UX and UI.
         </p></br>
         <div style="display:flex; flex:1; justify-content:center; flex-direction: row; padding: 20px; flex-wrap: wrap">
-            <img src="img/photos/ux0.png" style="max-width:100px">    
-            <img src="img/photos/ux1.png" style="max-width:100px">
-            <img src="img/photos/ux2.png" style="max-width:100px">
-            <img src="img/photos/ux3.png" style="max-width:100px">
-            <img src="img/photos/ux4.png" style="max-width:100px">
+            <div class="gallery-div">
+                <div class="thumbnail" onclick="openLightbox('img/photos/ux0.png')">
+                    <img src="img/photos/ux0.png">
+                </div>
+                <div class="thumbnail" onclick="openLightbox('img/photos/ux1.png')">
+                    <img src="img/photos/ux1.png">
+                </div>
+                <div class="thumbnail" onclick="openLightbox('img/photos/ux2.png')">
+                    <img src="img/photos/ux2.png">
+                </div>
+                <div class="thumbnail" onclick="openLightbox('img/photos/ux3.png')">
+                    <img src="img/photos/ux3.png">
+                </div>
+                <div class="thumbnail" onclick="openLightbox('img/photos/ux4.png')">
+                    <img src="img/photos/ux4.png">
+                </div>
+            </div>
         </div>
         </br>
         <h2>The power of Trackr unleashed ?</h3></br>
@@ -168,8 +196,31 @@
         </div>
         </br>
     </div>
+    <?php include 'scroll-up.php'; ?>
     <div class="footer">
         <p style="text-align: center">This is my resume <span style="color:#949B40">v1.0</span></p>
     </div>
+        <div id="lightbox" class="lightbox-container" onclick="closeLightbox()">
+        <div class="lightbox-content">
+            <img id="lightboxImage" class="lightbox-img" src="" alt="Lightbox Image">
+            <div id="description" class="lightbox-description"></div>
+        </div>
+    </div>
+    <script>
+    function openLightbox(imageSrc, description) {
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImage = document.getElementById('lightboxImage');
+        const descriptionElement = document.getElementById('description');
+
+        lightboxImage.src = imageSrc;
+        descriptionElement.innerText = description;
+        lightbox.style.display = 'flex';
+    }
+
+    function closeLightbox() {
+        const lightbox = document.getElementById('lightbox');
+        lightbox.style.display = 'none';
+    }
+    </script>
 </body>
 </html>

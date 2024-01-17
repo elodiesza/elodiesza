@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/owl-carousel5-main/owl-carousel/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <title>Listr</title>
 </head>
 <body>
@@ -11,10 +12,10 @@
     ?>
     <div class="container">
         <h1 class="title">Listr</h1></br>
-        <div style="display:flex; flex-direction:row">
-            <img src="img/photos/listr-icon.png" style="max-width:100px; max-height:100px;">
-            <div style="display:flex; flex-direction:column; padding-left: 20px;">
-                <h2>Introducing Listr</h3></br>
+        <h2>Introducing Listr</h3></br>
+        <div style="display:flex; flex-direction:row;width:100%">
+            <img src="img/photos/Listr-icon.png" style="max-width:100px; max-height:100px;">
+            <div style=" padding-left: 20px; display:flex; flex-wrap : wrap">
                 <p>
                     Listr is a groundbreaking productivity app designed to elevate your daily task management experience. This versatile and user-friendly mobile application seamlessly integrates into your routine, helping you stay organized, focused, and in control.
                 </p></br>
@@ -88,13 +89,14 @@
             <li>&#8226; Take charge of your day, prioritize effectively, and achieve your goals effortlessly.</li>
         </ul>
         </p></br>
-        <iframe max-width="600px" height="auto" src="https://youtu.be/18qA9xFkKGY" frameborder="0" allowfullscreen></iframe>
+        <iframe max-width="600px" height="auto" src="https://youtube.com/embed/18qA9xFkKGY" frameborder="0" allowfullscreen></iframe>
         </br>
         <div style="display:flex; flex:1; height: 40px; justify-content:flex-end">
             <img src="img/icons/TS.png" style="object-fit: contain">
             <img src="img/icons/react.png" style="object-fit: contain">
         </div>
     </div>
+    <?php include 'scroll-up.php'; ?>
     <div class="footer">
         <p style="text-align: center">This is my resume <span style="color:#949B40">v1.0</span></p>
     </div>

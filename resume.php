@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/owl-carousel5-main/owl-carousel/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <title>Resume</title>
     <style>
         @media screen and (max-width: 599px) {
@@ -53,7 +54,8 @@
                     passion for creativity and a deep enthusiasm for technology, I am actively
                     seeking to reenter the field of engineering to recover the stimulation I
                     lost. With a strong background in engineering and a newfound
-                    understanding of business dynamics, I am poised to contribute effectively
+                    understanding of business dynamics through my last position as an international
+                    business manager, I am poised to contribute effectively
                     and drive innovation in a more technical role.
             </p>
         </div>
@@ -129,7 +131,7 @@
                 </div>
                 <div style="display:flex; flex:1; margin-top: 20px; flex-wrap:wrap;">
                     <div style="width: 100px; height:100px; display:flex; flex-direction: column; align-items:center; justify-content:center; margin:10px; font-size: 8px;">
-                        <circle-progress value="85" max="100" text-format="none"></circle-progress>
+                        <circle-progress value="65" max="100" text-format="none"></circle-progress>
                         <div style="position:absolute; display:flex; flex-direction: column; align-items:center; ">
                             <p>JAVASCRIPT</p>
                             <img src="img/icons/JS.png" style="height:30px"/>
@@ -137,7 +139,7 @@
                         </div>
                     </div>   
                     <div style="width: 100px; height:100px; display:flex; flex-direction: column; align-items:center; justify-content:center; margin:10px; font-size: 8px;">
-                        <circle-progress value="75" max="100" text-format="none"></circle-progress>
+                        <circle-progress value="65" max="100" text-format="none"></circle-progress>
                         <div style="position:absolute; display:flex; flex-direction: column; align-items:center; ">
                             <p>TYPESCRIPT</p>
                             <img src="img/icons/TS.png" style="height:30px"/>
@@ -145,7 +147,7 @@
                         </div>
                     </div> 
                     <div style="width: 100px; height:100px; display:flex; flex-direction: column; align-items:center; justify-content:center; margin:10px; font-size: 8px;">
-                        <circle-progress value="75" max="100" text-format="none"></circle-progress>
+                        <circle-progress value="65" max="100" text-format="none"></circle-progress>
                         <div style="position:absolute; display:flex; flex-direction: column; align-items:center; ">
                             <p>REACT NATIVE</p>
                             <img src="img/icons/react.png" style="height:30px"/>
@@ -153,7 +155,7 @@
                         </div>
                     </div>   
                     <div style="width: 100px; height:100px; display:flex; flex-direction: column; align-items:center; justify-content:center; margin:10px; font-size: 8px;">
-                        <circle-progress value="90" max="100" text-format="none"></circle-progress>
+                        <circle-progress value="70" max="100" text-format="none"></circle-progress>
                         <div style="position:absolute; display:flex; flex-direction: column; align-items:center; ">
                             <p>HTML</p>
                             <img src="img/icons/HTML.png" style="height:30px"/>
@@ -161,7 +163,7 @@
                         </div>
                     </div>   
                     <div style="width: 100px; height:100px; display:flex; flex-direction: column; align-items:center; justify-content:center; margin:10px; font-size: 8px;">
-                        <circle-progress value="95" max="100" text-format="none"></circle-progress>
+                        <circle-progress value="75" max="100" text-format="none"></circle-progress>
                         <div style="position:absolute; display:flex; flex-direction: column; align-items:center; ">
                             <p>CSS</p>
                             <img src="img/icons/CSS.png" style="height:30px"/>
@@ -169,15 +171,15 @@
                         </div>
                     </div>   
                     <div style="width: 100px; height:100px; display:flex; flex-direction: column; align-items:center; justify-content:center; margin:10px; font-size: 8px;">
-                        <circle-progress value="70" max="100" text-format="none"></circle-progress>
+                        <circle-progress value="50" max="100" text-format="none"></circle-progress>
                         <div style="position:absolute; display:flex; flex-direction: column; align-items:center; ">
                             <p>PHP</p>
-                            <img src="img/icons/PHP.png" style="height:30px"/>
+                            <img src="img/icons/php.png" style="height:30px"/>
                             <p>4 YRS</p>
                         </div>
                     </div>   
                     <div style="width: 100px; height:100px; display:flex; flex-direction: column; align-items:center; justify-content:center; margin:10px; font-size: 8px;">
-                        <circle-progress value="40" max="100" text-format="none"></circle-progress>
+                        <circle-progress value="30" max="100" text-format="none"></circle-progress>
                         <div style="position:absolute; display:flex; flex-direction: column; align-items:center; ">
                             <p>PYTHON</p>
                             <img src="img/icons/python.png" style="height:30px"/>
@@ -185,15 +187,15 @@
                         </div>
                     </div>   
                     <div style="width: 100px; height:100px; display:flex; flex-direction: column; align-items:center; justify-content:center; margin:10px; font-size: 8px;">
-                        <circle-progress value="40" max="100" text-format="none"></circle-progress>
+                        <circle-progress value="30" max="100" text-format="none"></circle-progress>
                         <div style="position:absolute; display:flex; flex-direction: column; align-items:center; ">
                             <p>JAVA</p>
-                            <img src="img/icons/JAVA.png" style="height:30px"/>
+                            <img src="img/icons/java.png" style="height:30px"/>
                             <p>2 YRS</p>
                         </div>
                     </div>   
                     <div style="width: 100px; height:100px; display:flex; flex-direction: column; align-items:center; justify-content:center; margin:10px; font-size: 8px;">
-                        <circle-progress value="40" max="100" text-format="none"></circle-progress>
+                        <circle-progress value="30" max="100" text-format="none"></circle-progress>
                         <div style="position:absolute; display:flex; flex-direction: column; align-items:center; ">
                             <p>VBA</p>
                             <img src="img/icons/VBA.png" style="height:30px"/>
@@ -213,6 +215,7 @@
                 <img src="img/icons/indesign.png" style="width:50px; height:50px; margin-right:5px"/>
                 <img src="img/icons/thegimp.png" style="width:50px; height:50px; margin-right:5px"/>
                 <img src="img/icons/figma.png" style="width:30px; height:50px; margin-right:5px"/>
+                <img src="img/icons/protopie.png" style="width:50px; height:50px; margin-right:5px"/>
                 <img src="img/icons/davinci.png" style="width:50px; height:50px; margin-right:5px"/>
                 <img src="img/icons/salesforce.png" style="width:50px; height:34px; margin-right:5px"/>
                 <img src="img/icons/jira.png" style="width:50px; height:50px; margin-right:5px"/>
@@ -250,19 +253,22 @@
                     </p>
                     <div class="gallery-div">
                         <div class="thumbnail" onclick="openLightbox('img/photos/ciie3.jpeg','CIIE 2023')">
-                            <img src="img/photos/ciie3.jpeg" alt="Thumbnail 1">
+                            <img src="img/photos/ciie3.jpeg">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/tokyo.jpeg','Tokyo Automotive World 2023')">
-                            <img src="img/photos/tokyo.jpeg" alt="Thumbnail 2">
+                            <img src="img/photos/tokyo.jpeg">
                         </div>
-                        <div class="thumbnail" onclick="openLightbox('img/photos/iaa1.jpeg','IAA 2023')">
-                            <img src="img/photos/iaa1.jpeg" alt="Thumbnail 3">
+                        <div class="thumbnail" onclick="openLightbox('img/photos/iaa1.JPEG','IAA 2023')">
+                            <img src="img/photos/iaa1.JPEG">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/ciie4.jpeg','CIIE 2023 - BMW Start-up pitch event')">
-                            <img src="img/photos/ciie4.jpeg" alt="Thumbnail 1">
+                            <img src="img/photos/ciie4.jpeg">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/sr2.png','Presentation at the office')">
-                            <img src="img/photos/sr2.png" alt="Thumbnail 1">
+                            <img src="img/photos/sr2.png">
+                        </div>
+                        <div class="thumbnail" onclick="openLightbox('img/photos/ces2.png','CES 2023 Las Vegas')">
+                            <img src="img/photos/ces2.png">
                         </div>
                     </div>
                 </div>
@@ -293,16 +299,16 @@
                     </p>
                     <div class="gallery-div">
                         <div class="thumbnail" onclick="openLightbox('img/photos/gamma1.png','')">
-                            <img src="img/photos/gamma1.png" alt="Thumbnail 5">
+                            <img src="img/photos/gamma1.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/gamma2.png','')">
-                            <img src="img/photos/gamma2.png" alt="Thumbnail 6">
+                            <img src="img/photos/gamma2.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/gamma3.png','The GAMMA family, on my departure day')">
-                            <img src="img/photos/gamma3.png" alt="Thumbnail 7">
+                            <img src="img/photos/gamma3.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/gamma4.png','')">
-                            <img src="img/photos/gamma4.png" alt="Thumbnail 8">
+                            <img src="img/photos/gamma4.png">
                         </div>
                     </div>
                 </div>
@@ -326,10 +332,10 @@
                     </p>
                     <div class="gallery-div">
                         <div class="thumbnail" onclick="openLightbox('img/photos/zf1.png','The industrial process team')">
-                            <img src="img/photos/zf1.png" alt="Thumbnail 9">
+                            <img src="img/photos/zf1.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/zf2.png','Always close to the workshop workers')">
-                            <img src="img/photos/zf2.png" alt="Thumbnail 10">
+                            <img src="img/photos/zf2.png">
                         </div>
                     </div>
                 </div>
@@ -352,19 +358,19 @@
                     </p>
                     <div class="gallery-div">
                         <div class="thumbnail" onclick="openLightbox('img/photos/volvo1.png','The VOLVO CE design team, on my departure day')">
-                            <img src="img/photos/volvo1.png" alt="Thumbnail 11">
+                            <img src="img/photos/volvo1.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/volvo2.png','Patent idea disclosure at VOLVO CE')">
-                            <img src="img/photos/volvo2.png" alt="Thumbnail 12">
+                            <img src="img/photos/volvo2.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/volvo3.png','Driving a VOLVO hauler on construction site')">
-                            <img src="img/photos/volvo3.png" alt="Thumbnail 13">
+                            <img src="img/photos/volvo3.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/volvo4.png','A creative workshop day at the VOLVO office')">
-                            <img src="img/photos/volvo4.png" alt="Thumbnail 14">
+                            <img src="img/photos/volvo4.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/volvo5.png','At my desk')">
-                            <img src="img/photos/volvo5.png" alt="Thumbnail 15">
+                            <img src="img/photos/volvo5.png">
                         </div>
                     </div>
                 </div>
@@ -401,10 +407,10 @@
                     </p>
                     <div class="gallery-div">
                         <div class="thumbnail" onclick="openLightbox('img/photos/instytut1.png','With the institute R&D team')">
-                            <img src="img/photos/instytut1.png" alt="Thumbnail 16">
+                            <img src="img/photos/instytut1.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/instytut2.png','Always close to the workshop workers')">
-                            <img src="img/photos/instytut2.png" alt="Thumbnail 17">
+                            <img src="img/photos/instytut2.png">
                         </div>
                     </div>
                 </div>
@@ -430,19 +436,19 @@
                     </p>
                     <div class="gallery-div">
                         <div class="thumbnail" onclick="openLightbox('img/photos/yonsei1.png','MBA Graduation day')">
-                            <img src="img/photos/yonsei1.png" alt="Thumbnail 18">
+                            <img src="img/photos/yonsei1.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/yonsei2.png','MBA Graduation day')">
-                            <img src="img/photos/yonsei2.png" alt="Thumbnail 19">
+                            <img src="img/photos/yonsei2.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/yonsei3.png','GMBA class picture')">
-                            <img src="img/photos/yonsei3.png" alt="Thumbnail 20">
+                            <img src="img/photos/yonsei3.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/yonsei4.png','GMBA class picture')">
-                            <img src="img/photos/yonsei4.png" alt="Thumbnail 21">
+                            <img src="img/photos/yonsei4.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/yonsei5.png','Shooting for a Yonsei marketing material')">
-                            <img src="img/photos/yonsei5.png" alt="Thumbnail 22">
+                            <img src="img/photos/yonsei5.png">
                         </div>
                     </div>
                 </div>
@@ -465,19 +471,19 @@
                     </p>
                     <div class="gallery-div">
                         <div class="thumbnail" onclick="openLightbox('img/photos/dju1.png','DJU graduation day')">
-                            <img src="img/photos/dju1.png" alt="Thumbnail 23">
+                            <img src="img/photos/dju1.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/dju2.png','Kimchi making day 김장 at DJU')">
-                            <img src="img/photos/dju2.png" alt="Thumbnail 24">
+                            <img src="img/photos/dju2.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/dju3.png','Class picture at DJU')">
-                            <img src="img/photos/dju3.png" alt="Thumbnail 25">
+                            <img src="img/photos/dju3.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/dju4.png','Last day at DJU with the class')">
-                            <img src="img/photos/dju4.png" alt="Thumbnail 26">
+                            <img src="img/photos/dju4.png">
                         </div>
                         <div class="thumbnail" onclick="openLightbox('img/photos/dju5.png','Shooting for DJU official website')">
-                            <img src="img/photos/dju5.png" alt="Thumbnail 27">
+                            <img src="img/photos/dju5.png">
                         </div>
                     </div>
                 </div>
@@ -590,6 +596,9 @@
                     <div style="display: flex; flex-direction: column; align-items: center; width: 100px">
                         <img src="img/icons/art.png" style="width:50px; height:50px"/>
                         <p style="font-size: 12px;text-align: center">Portraitist and illustrator</p>
+                        <a href="https://elodiesza.com/drawing.php" target="_blank">
+                            <p style="color:#949B40">> Check it out <</p>
+                        </a>
                     </div>
                     <div style="display: flex; flex-direction: column; align-items: center; width: 100px">
                         <img src="img/icons/aerial.png" style="width:50px; height:50px"/>
@@ -606,6 +615,9 @@
                     <div style="display: flex; flex-direction: column; align-items: center; width: 100px">
                         <img src="img/icons/diy.png" style="width:50px; height:50px"/>
                         <p style="font-size: 12px;text-align: center">Hand crafting</p>
+                        <a href="https://elodiesza.com/diy.php" target="_blank">
+                            <p style="color:#949B40">> Check it out <</p>
+                        </a>
                     </div>
                     <div style="display: flex; flex-direction: column; align-items: center; width: 100px">
                         <img src="img/icons/sewing.png" style="width:50px; height:50px"/>
@@ -614,10 +626,16 @@
                     <div style="display: flex; flex-direction: column; align-items: center; width: 100px">
                         <img src="img/icons/writing.png" style="width:50px; height:50px"/>
                         <p style="font-size: 12px;text-align: center">Korean blog columnist</p>
+                        <a href="https://blog.naver.com/gingerinseoul" target="_blank">
+                            <p style="color:#949B40">> My Blog <</p>
+                        </a>
                     </div>
                     <div style="display: flex; flex-direction: column; align-items: center; width: 100px">
                         <img src="img/icons/book.png" style="width:50px; height:50px"/>
                         <p style="font-size: 12px;text-align: center">Self development Bookworm</p>
+                        <a href="https://www.goodreads.com/user/show/172100353-elodie-szablewski" target="_blank">
+                            <p style="color:#949B40">>My goodreads<</p>
+                        </a>
                     </div>
             </div>
         </div>
@@ -651,12 +669,15 @@
             </div>
         </div>
         <div style="margin-top: 50px">
-                <div style="height: 40px"><h2>KEY NUMBERS</h2></div>
+                <h2>KEY NUMBERS</h2>
                 <div style="display:flex; flex:1; justify-content: center; flex-wrap:wrap; ">
                     <div style="display: flex; flex-direction: column; align-items: center; width: 130px">
                         <img src="img/icons/duolingo.png" style="width:70px; height:70px"/>
                         <h2>400</h2>
                         <p style="font-size: 12px;text-align: center">days streak achieved on Duolingo</p>
+                        <a href="https://www.duolingo.com/profile/Ginger348038" target="_blank">
+                            <p style="color:#949B40">>My profile<</p>
+                        </a>
                     </div>
                     <div style="display: flex; flex-direction: column; align-items: center; width: 130px">
                         <img src="img/icons/books.png" style="width:70px; height:70px"/>
@@ -688,12 +709,29 @@
                         </a>
                     </div>
             </div>
+            <h2>STRENGTHS</h2>
+            <div style="display:flex; flex-direction:row; max-width:100%; justify-content:center; flex-wrap:wrap">
+                <div style="flex:1; align-items: center; justify-content: center; padding: 10px; text-align: center; max-width:200px">
+                    <img src="img/icons/assertiveness.png" style="width: 50%">
+                    <h3 style="text-align: center">Assertiveness</h3>
+                    <p style="text-align: center">I know how to express my opinions when needed and I am not afraid to say I was wrong.</p>
+                </div>
+                <div style="flex:1; align-items: center; justify-content: center; padding: 10px; text-align: center; max-width:200px">
+                    <img src="img/icons/loyalty.png" style="width: 50%">
+                    <h3 style="text-align: center">Loyalty</h3>
+                    <p style="text-align: center">If I can trust you, then you can trust me. I am dedicated to my commitments.</p>
+                </div>
+                <div style="flex:1; align-items: center; justify-content: center; padding: 10px; text-align: center; max-width:200px">
+                    <img src="img/icons/flexibility.png" style="width: 50%">
+                    <h3 style="text-align: center">Flexibility</h3>
+                    <p style="text-align: center">You need me to travel to the other side of the world tomorrow ? I am packing up my luggage right now.</p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="footer">
         <p style="text-align: center">This is my resume <span style="color:#949B40">v1.0</span></p>
     </div>
-    <?php include 'scroll-up.php'; ?>
     <div id="lightbox" class="lightbox-container" onclick="closeLightbox()">
         <div class="lightbox-content">
             <img id="lightboxImage" class="lightbox-img" src="" alt="Lightbox Image">
@@ -716,5 +754,6 @@
         lightbox.style.display = 'none';
     }
     </script>
+    <?php include 'scroll-up.php'; ?>
 </body>
 </html>

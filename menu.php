@@ -91,7 +91,7 @@
 							<div style="flex:1">
 								<p>Hello, <span style="color:#949B40">I am</span></p>
 							</div>
-							<div style="flex:2">
+							<div style="flex:2; margin-bottom:20px">
 								<h1>Elodie Szablewski</h1>
 								<h3>Msc. Mechanical Engineer<span style="color:#E0EB61"> /</span> Yonsei MBA<span style="color:#E0EB61"> /</span> 10+y Developer<span style="color:#E0EB61"> /</span> Artist</h3>
 							</div>

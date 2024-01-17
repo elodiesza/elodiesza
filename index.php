@@ -6,6 +6,8 @@
     <link href="plugins/owl-carousel5-main/owl-carousel/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="plugins/owl-carousel5-main/owl-carousel/css/fontawesome.min.css" rel="stylesheet" type="text/css" />
     <link href="plugins/owl-carousel5-main/owl-carousel/css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="img/icons/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/icons/favicon.ico" type="image/x-icon">
     <title>Elodie Szablewski</title>
 </head>
 <body>
@@ -75,16 +77,16 @@
                     <div class="owl-carousel slider_carousel">
                         <a href="drawing.php">
                             <div class="card_box">
-                                <img class="img-fluid w-100" src="" alt="">
+                                <img class="img-fluid w-100" src="/img/photos/shoes-thumbnail.png">
                                 <div class="card_text">
                                     <h4>Drawings and paintings</h4>
-                                    <p>Habits correlation tool</p>
+                                    <p>Just to please the eye</p>
                                 </div>
                             </div>
                         </a>
                         <a href="designs.php">
                             <div class="card_box">
-                                <img class="img-fluid w-100" src="" alt="">
+                                <img class="img-fluid w-100" src="/img/photos/design-thumbnail.png" alt="">
                                 <div class="card_text">
                                     <h4>Designs for businesses</h4>
                                     <p>Logos, covers, ...</p>
@@ -93,27 +95,27 @@
                         </a>
                         <a href="cartoons.php">
                             <div class="card_box">
-                                <img class="img-fluid w-100" src="" alt="">
+                                <img class="img-fluid w-100" src="/img/photos/ginger-thumbnail.png" alt="">
                                 <div class="card_text">
                                     <h4>Cartoons</h4>
                                 </div>
                             </div>
                         </a>
-                        <a href="diy.php">
-                            <div class="card_box">
-                                <img class="img-fluid w-100" src="" alt="">
-                                <div class="card_text">
-                                    <h4>Engineering & DIY</h4>
-                                    <p>Artwork showcase gallery</p>
-                                </div>
-                            </div>
-                        </a>
                         <a href="marketing.php">
                             <div class="card_box">
-                                <img class="img-fluid w-100" src="" alt="">
+                                <img class="img-fluid w-100" src="/img/photos/marketing-thumbnail.png" alt="">
                                 <div class="card_text">
                                     <h4>Communication</h4>
                                     <p>Marketing materials</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="diy.php">
+                            <div class="card_box">
+                                <img class="img-fluid w-100" src="/img/photos/map-thumbnail.png" alt="">
+                                <div class="card_text">
+                                    <h4>Engineering & DIY</h4>
+                                    <p>Make it functional !</p>
                                 </div>
                             </div>
                         </a>

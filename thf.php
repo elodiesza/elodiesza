@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/owl-carousel5-main/owl-carousel/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <title>Tetrahydrofurane</title>
 </head>
 <body>
@@ -32,10 +33,11 @@
         <div style="display:flex; flex:1; height: 40px; justify-content:flex-end">
             <img src="img/icons/HTML.png" style="object-fit: contain">
             <img src="img/icons/CSS.png" style="object-fit: contain">
-            <img src="img/icons/PHP.png" style="object-fit: contain">
+            <img src="img/icons/php.png" style="object-fit: contain">
         </div>
         </br>
     </div>
+    <?php include 'scroll-up.php'; ?>
     <div class="footer">
         <p style="text-align: center">This is my resume <span style="color:#949B40">v1.0</span></p>
     </div>
