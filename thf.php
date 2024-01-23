@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PFLH8B74PD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-PFLH8B74PD');
+    </script>
     <meta charset="utf-8" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <link href="plugins/owl-carousel5-main/owl-carousel/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -8,6 +17,7 @@
 </head>
 <body>
     <?php 
+        $title = "";
         include 'menu.php'; 
     ?>
     <div class="container">
@@ -21,13 +31,13 @@
         </p></br>
         <div class="gallery-div">
             <div class="thumbnail" onclick="openLightbox('img/photos/thfhome.png')">
-                <img src="img/photos/thfhome.png" alt="Thumbnail 1">
+                <img src="img/photos/thfhome Small.png" alt="Thumbnail 1">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/photos/thfportfolio.png')">
-                <img src="img/photos/thfportfolio.png" alt="Thumbnail 2">
+                <img src="img/photos/thfportfolio Small.png" alt="Thumbnail 2">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/photos/thfmenu.png')">
-                <img src="img/photos/thfmenu.png" alt="Thumbnail 3">
+                <img src="img/photos/thfmenu Small.png" alt="Thumbnail 3">
             </div>
         </div>
         <div style="display:flex; flex:1; height: 40px; justify-content:flex-end">

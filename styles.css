@@ -8,15 +8,17 @@ body, h1, h2, h3, p, ul, ol, li, figure, figcaption, div {
 }
 
 body {
-    background-color: #ebebeb;
+    background-color: #ffffff;
     display: flex;
     font-size: 12px;
     flex-direction: column;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 600px) {
     .container {
-        max-width: 800px;
+        max-width: 1000px;
         margin: 0 auto;
         padding: 20px;
     }
@@ -35,6 +37,34 @@ body {
         padding-right: 5px;
         display: flex;
         margin-top: 20px;
+    }
+    
+    .cards-container {
+    	width: 85%;
+        position: relative;
+    }
+
+    .cards-container::before {
+        content:"";
+        background: linear-gradient(to right,white 0%,transparent 4%,transparent 96%, white 100%);
+        position:absolute;
+        z-index:2;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        pointer-events: none;
+    }
+      
+      
+    .reading-progress-container {
+        display: flex; 
+        position: absolute; 
+        right:0; 
+        width: 100px; 
+        height: 100vh; 
+        justify-content: flex-end;
+        margin-right: 40px;
     }
 }
 
@@ -58,6 +88,28 @@ body {
         padding-right: 5px;
         display: flex;
         margin-top: 20px;
+    }
+    
+    .cards-container {
+    	width: 80%;
+    }
+
+    .reading-progress-container {
+        display: flex; 
+        position: absolute; 
+        right:0; 
+        width: 100px; 
+        height: 100vh; 
+        justify-content: flex-end;
+        margin-right: 0px;
+    }
+
+    .title-container {
+        opacity: 0;
+    }
+
+    .name {
+        text-align: center;
     }
 }
 .container::after {
@@ -101,6 +153,7 @@ h5 {
     position:absolute;
     justify-content: flex-start;
     align-items: flex-end;
+    background-position: 0%;
 }
 
 .posttext {
@@ -134,14 +187,15 @@ h5 {
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    background-color: #ffffff;
+
 }
 
 .intro {
     width: 100%; 
     text-align: center;
     display: flex; 
-    background-color: #F2F4E9;
+    padding: 20px;
+    justify-content: center;
 }
 
 .content {
@@ -156,7 +210,7 @@ h5 {
     background-color: #ffffff;
     text-align: center;
     bottom:0px;
-    text-align: center;
+    position: relative;
 }
 
 .photo {
@@ -187,12 +241,13 @@ h5 {
     height: 100%;
     margin-left: 0;
     padding: 0px;
+    margin-bottom: 10px;
     object-fit: cover;
 }
 
 .button {
     width: 120px;
-    height: 26px;
+    height: 30px;
     margin-right: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -264,11 +319,6 @@ h5 {
     src: url('font/glory/GloryTSI-Regular.ttf');
 }
 
-.cards-container {
-	width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-}
 
 ol,
 ul {
@@ -277,6 +327,14 @@ ul {
 
 a:hover {
 	text-decoration: none;
+}
+
+.cards-container {
+    margin: 0 auto;
+    padding: 0px;
+    margin-top : 20px;
+    margin-bottom: 20px;
+    position: relative;
 }
 
 .card_wrapper {
@@ -308,6 +366,7 @@ a:hover {
 .card_box:hover {
 	transform: translateY(-10px);
     box-shadow: 0px 0px 10px #E0EB61;
+    transform: scale(1.10);
 }
 
 .card_text {
@@ -394,6 +453,7 @@ details[open] summary {
     display: none;
     font-size: 20px;
     font-family: "Inter-Regular";
+    z-index: 5;
 }
 
 circle-progress::part(value) {
@@ -403,7 +463,7 @@ circle-progress::part(value) {
 }
 circle-progress::part(circle) {
     stroke-width: 10px;
-    stroke: #d4d4d4
+    stroke: #d4d4d4;
 }
 
 circle-progress::part(base) {
@@ -470,7 +530,6 @@ circle-progress::part(base) {
     color: white;
   }
 
-
   .thumbnail {
     cursor: pointer;
     margin: 5px;
@@ -484,9 +543,120 @@ circle-progress::part(base) {
     height: 80px;
     transition: transform 0.2s;
   }
+  .thumbnail2 {
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 16px;
+    overflow: hidden;
+    height: 250px;
+  }
 
+  .thumbnail2 img {
+    height: 250px;
+    transition: transform 0.2s;
+  }
   .thumbnail:hover img {
     transform: scale(1.1);
   }
+  .thumbnail2:hover img {
+    transform: scale(1.1);
+  }
+
+  .progress-bar-container {
+    margin-right: 5px;
+  }
+
+  .reading-progress-container{
+    z-index:4;
+  }
   
-  
+  .reading-progress-bar {
+    width:5px; 
+    height: 100%; 
+    background-color: #E0EB61; 
+    position: absolute; 
+  }
+
+  .reading-progress-bar-back {
+    width:5px; 
+    height: 100%; 
+    background-color: #d4d4d4; 
+  }
+
+  .progress-title-container {
+    width: 100px;
+    height: 26px;
+    position: absolute;
+    right: 0px;
+    display:flex;
+  }
+
+  .dot {
+    background-image: url('img/design/dot.png');
+    background-position: center;
+    width: 17px;
+    height: 15px;
+    background-size: contain;
+    z-index: 5;
+  }
+
+  .title-container {
+    width: 100%;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 5px;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .progress-title {
+    margin-right: 5px;
+    font-family: 'GloryTSI-Regular';
+    color:#111111;
+    text-align: right;
+    line-height: 0.8em;
+  }
+
+  .key-number {
+    margin-top: 10px;
+    font-size: 26px;
+    font-family: 'GloryTSI-Regular';
+    color:#111111;
+  }
+
+.slide-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.slide-in.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.counter {
+    color:#949B40;
+    margin-top: 0px;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 36px;
+}
+
+.zoom {
+    transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}

@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PFLH8B74PD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-PFLH8B74PD');
+    </script>
     <meta charset="utf-8" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <link href="plugins/owl-carousel5-main/owl-carousel/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -8,37 +17,50 @@
 </head>
 <body>
     <?php 
+        $title = "";
         include 'menu.php'; 
     ?>
     <div class="container">
         <h1 class="title">Listr</h1></br>
-        <h2>Introducing Listr</h3></br>
-        <div style="display:flex; flex-direction:row;width:100%">
-            <img src="img/photos/Listr-icon.png" style="max-width:100px; max-height:100px;">
-            <div style=" padding-left: 20px; display:flex; flex-wrap : wrap">
-                <p>
-                    Listr is a groundbreaking productivity app designed to elevate your daily task management experience. This versatile and user-friendly mobile application seamlessly integrates into your routine, helping you stay organized, focused, and in control.
-                </p></br>
+        <div style="display:flex; flex-direction: row; flex-wrap: wrap">
+            <div style="display:flex; flex-direction: column; flex:2;">
+                <div style="display:flex; flex-direction: row; flex-wrap: wrap;">
+                    <h2>Introducing Listr</h3></br>
+                    <div style="display:flex; flex-direction:row;width:100%">
+                        <img src="img/photos/Listr-icon.png" style="max-width:100px; max-height:100px; border-radius: 20px">
+                        <div style=" padding-left: 20px; display:flex; flex-wrap : wrap">
+                            <p>
+                                Listr is a groundbreaking productivity app designed to elevate your daily task management experience. This versatile and user-friendly mobile application seamlessly integrates into your routine, helping you stay organized, focused, and in control.
+                            </p></br>
+                            </br>
+                        </div>
+                    </div>
+                </div>
                 </br>
-            </div>
-        </div>
-        <h2>Key Features</h2></br>
-        <h3>Intuitive Today Screen</h3>
-        <p>
-        <ul>
-            <li>&#8226; The Today screen acts as your daily hub, conveniently listing all your tasks.</li>
-            <li>&#8226; Toggle effortlessly between uncategorized daily tasks or organize them by projects/categories using easy-to-use tabs.</li>
-            <li>&#8226; Navigate through days seamlessly with the top header arrows, ensuring a swift experience.</li>
-        </ul>
-        </p> </br></br>
+                </br>
+                <h2>Key Features</h2></br>
+                <h3>Intuitive Today Screen</h3>
+                <p>
+                <ul>
+                    <li>&#8226; The Today screen acts as your daily hub, conveniently listing all your tasks.</li>
+                    <li>&#8226; Toggle effortlessly between uncategorized daily tasks or organize them by projects/categories using easy-to-use tabs.</li>
+                    <li>&#8226; Navigate through days seamlessly with the top header arrows, ensuring a swift experience.</li>
+                </ul>
+                </p> </br></br>
 
-        <h3>Efficient Task Management</h3>
-        <p>
-        <ul>
-            <li>&#8226; Update task states with a simple click, smoothly transitioning from "not started" to "started," "finished," or "postpone."</li>
-            <li>&#8226; Tasks marked as "postpone" automatically roll over to the next day, ensuring nothing slips through the cracks.</li>
-        </ul>
-        </p></br></br>
+                <h3>Efficient Task Management</h3>
+                <p>
+                <ul>
+                    <li>&#8226; Update task states with a simple click, smoothly transitioning from "not started" to "started," "finished," or "postpone."</li>
+                    <li>&#8226; Tasks marked as "postpone" automatically roll over to the next day, ensuring nothing slips through the cracks.</li>
+                </ul>
+                </p></br></br>
+            </div>
+            <div style="display:flex; flex:1; justify-content:center; align-items: center">
+                        <img src="img/photos/trackerapp.png" style="max-height:450px; margin: 20px; border-radius: 20px">
+                        <img src="img/photos/listrgif.gif" style="max-height:450px; margin: 20px; border-radius: 30px; position: absolute; transform: scale(0.96)">
+                    </div>
+        </div>
 
         <h3>Track Tab for Project Management</h3>
         <p>
@@ -89,7 +111,9 @@
             <li>&#8226; Take charge of your day, prioritize effectively, and achieve your goals effortlessly.</li>
         </ul>
         </p></br>
-        <iframe max-width="600px" height="auto" src="https://youtube.com/embed/18qA9xFkKGY" frameborder="0" allowfullscreen></iframe>
+        <div style="display:flex; flex:1; justify-content:center">
+            <iframe max-width="600px" height="auto" src="https://youtube.com/embed/18qA9xFkKGY" frameborder="0" allowfullscreen></iframe>
+        </div>
         </br>
         <div style="display:flex; flex:1; height: 40px; justify-content:flex-end">
             <img src="img/icons/TS.png" style="object-fit: contain">

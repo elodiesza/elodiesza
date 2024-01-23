@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PFLH8B74PD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-PFLH8B74PD');
+    </script>
     <meta charset="utf-8" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <link href="plugins/owl-carousel5-main/owl-carousel/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -8,7 +17,7 @@
 </head>
 <body>
     <?php 
-        $title = "Cartoons";
+        $title = "";
         include 'menu.php'; 
     ?>
     <div class="container">

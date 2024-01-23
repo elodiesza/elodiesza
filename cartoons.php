@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PFLH8B74PD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-PFLH8B74PD');
+    </script>
     <meta charset="utf-8" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <link href="plugins/owl-carousel5-main/owl-carousel/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <title>Drawing</title>
 </head>
+
 <body>
     <?php 
-        $title = "Cartoons";
+        $title = "";
         include 'menu.php'; 
     ?>
     <div class="container">
@@ -16,22 +26,22 @@
         <h2>Ginger</h2>
         <div class="gallery-div">
             <div class="thumbnail" onclick="openLightbox('img/art/Comics/ginger1.PNG','First time drawing Ginger. With a self-crafted touch pen on my iPhone. Yes.')">
-                <img src="img/art/Comics/ginger1.PNG">
+                <img src="img/art/Comics/ginger1 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Comics/ginger2.PNG','The Ginger character is born like this.')">
-                <img src="img/art/Comics/ginger2.PNG">
+                <img src="img/art/Comics/ginger2 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Comics/ginger3.png')">
-                <img src="img/art/Comics/ginger3.png">
+                <img src="img/art/Comics/ginger3 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Comics/ginger4.png')">
-                <img src="img/art/Comics/ginger4.png">
+                <img src="img/art/Comics/ginger4 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Comics/ginger5.PNG')">
-                <img src="img/art/Comics/ginger5.PNG">
+                <img src="img/art/Comics/ginger5 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Comics/SRcomics.png')">
-                <img src="img/art/Comics/SRcomics.png">
+                <img src="img/art/Comics/SRcomics Small.png">
             </div>
         </div>
         <h2>Webtoon</h2>
@@ -55,13 +65,13 @@
         </div>
         <div class="gallery-div">
             <div class="thumbnail" onclick="openLightbox('img/art/Comics/paris2.png')">
-                <img src="img/art/Comics/paris2.png">
+                <img src="img/art/Comics/paris2 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Comics/paris3.png')">
-                <img src="img/art/Comics/paris3.png">
+                <img src="img/art/Comics/paris3 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Comics/paris4.png')">
-                <img src="img/art/Comics/paris4.png">
+                <img src="img/art/Comics/paris4 Small.png">
             </div>
         </div>
     </div>

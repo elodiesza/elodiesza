@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PFLH8B74PD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-PFLH8B74PD');
+    </script>
     <meta charset="utf-8" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <link href="plugins/owl-carousel5-main/owl-carousel/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <title>Drawing</title>
 </head>
+
 <body>
     <?php 
-        $title = "DIY";
+        $title = "";
         include 'menu.php'; 
     ?>
     <div class="container">
@@ -27,52 +37,52 @@
         </div>
         <div class="gallery-div">
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map1.png')">
-                <img src="img/art/DIY/map1.png">
+                <img src="img/art/DIY/map1 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map2.png')">
-                <img src="img/art/DIY/map2.png">
+                <img src="img/art/DIY/map2 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map3.png')">
-                <img src="img/art/DIY/map3.png">
+                <img src="img/art/DIY/map3 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map4.png')">
-                <img src="img/art/DIY/map4.png">
+                <img src="img/art/DIY/map4 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map5.png')">
-                <img src="img/art/DIY/map5.png">
+                <img src="img/art/DIY/map5 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map6.png')">
-                <img src="img/art/DIY/map6.png">
+                <img src="img/art/DIY/map6 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map7.png')">
-                <img src="img/art/DIY/map7.png">
+                <img src="img/art/DIY/map7 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map8.png')">
-                <img src="img/art/DIY/map8.png">
+                <img src="img/art/DIY/map8 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map9.png')">
-                <img src="img/art/DIY/map9.png">
+                <img src="img/art/DIY/map9 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map10.png')">
-                <img src="img/art/DIY/map10.png">
+                <img src="img/art/DIY/map10 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map11.png')">
-                <img src="img/art/DIY/map11.png">
+                <img src="img/art/DIY/map11 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map11-1.png')">
-                <img src="img/art/DIY/map11-1.png">
+                <img src="img/art/DIY/map11-1 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map11-2.png')">
-                <img src="img/art/DIY/map11-2.png">
+                <img src="img/art/DIY/map11-2 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map12.png')">
-                <img src="img/art/DIY/map12.png">
+                <img src="img/art/DIY/map12 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map13.png')">
-                <img src="img/art/DIY/map13.png">
+                <img src="img/art/DIY/map13 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/map14.png')">
-                <img src="img/art/DIY/map14.png">
+                <img src="img/art/DIY/map14 Small.png">
             </div>
         </div>
         <h3>How it ended</h3>
@@ -86,25 +96,25 @@
         </div>
         <div class="gallery-div">
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/deer1.png')">
-                <img src="img/art/DIY/deer1.png">
+                <img src="img/art/DIY/deer1 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/deer2.png')">
-                <img src="img/art/DIY/deer2.png">
+                <img src="img/art/DIY/deer2 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/deer3.png')">
-                <img src="img/art/DIY/deer3.png">
+                <img src="img/art/DIY/deer3 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/deer4.png')">
-                <img src="img/art/DIY/deer4.png">
+                <img src="img/art/DIY/deer4 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/deer5.png')">
-                <img src="img/art/DIY/deer5.png">
+                <img src="img/art/DIY/deer5 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/deer6.png')">
-                <img src="img/art/DIY/deer6.png">
+                <img src="img/art/DIY/deer6 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/deer7.png')">
-                <img src="img/art/DIY/deer7.png">
+                <img src="img/art/DIY/deer7 Small.png">
             </div>
         </div>
         <h2>Nail polish shelf</h2>
@@ -113,16 +123,16 @@
         </div>
         <div class="gallery-div">
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/nida1.png')">
-                <img src="img/art/DIY/nida1.png">
+                <img src="img/art/DIY/nida1 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/nida2.png')">
-                <img src="img/art/DIY/nida2.png">
+                <img src="img/art/DIY/nida2 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/nida3.png')">
-                <img src="img/art/DIY/nida3.png">
+                <img src="img/art/DIY/nida3 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/DIY/nida4.png')">
-                <img src="img/art/DIY/nida4.png">
+                <img src="img/art/DIY/nida4 Small.png">
             </div>
         </div>
     </div>

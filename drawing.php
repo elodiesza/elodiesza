@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PFLH8B74PD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-PFLH8B74PD');
+    </script>
     <meta charset="utf-8" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <link href="plugins/owl-carousel5-main/owl-carousel/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -8,6 +17,7 @@
 </head>
 <body>
     <?php 
+        $title = "";
         include 'menu.php'; 
     ?>
     <div class="container">
@@ -16,170 +26,170 @@
         <h3>Still life</h3>
         <div class="gallery-div">
             <div class="thumbnail" onclick="openLightbox('img/art/StillLife/chaussures.png')">
-                <img src="img/art/StillLife/chaussures.png">
+                <img src="img/art/StillLife/chaussures Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/StillLife/chaussuresclrd.png')">
-                <img src="img/art/StillLife/chaussuresclrd.png">
+                <img src="img/art/StillLife/chaussuresclrd Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/StillLife/clementine.png')">
-                <img src="img/art/StillLife/clementine.png">
+                <img src="img/art/StillLife/clementine Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/StillLife/Elcamino.png')">
-                <img src="img/art/StillLife/Elcamino.png">
+                <img src="img/art/StillLife/Elcamino Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/StillLife/GibsonSG.png')">
-                <img src="img/art/StillLife/GibsonSG.png">
+                <img src="img/art/StillLife/GibsonSG Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/StillLife/japoncut.png')">
-                <img src="img/art/StillLife/japoncut.png">
+                <img src="img/art/StillLife/japoncut Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/StillLife/key.png')">
-                <img src="img/art/StillLife/key.png">
+                <img src="img/art/StillLife/key Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/StillLife/keyclrd.png')">
-                <img src="img/art/StillLife/keyclrd.png">
+                <img src="img/art/StillLife/keyclrd Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/StillLife/montre.png')">
-                <img src="img/art/StillLife/montre.png">
+                <img src="img/art/StillLife/montre Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/StillLife/sac.png')">
-                <img src="img/art/StillLife/sac.png">
+                <img src="img/art/StillLife/sac Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/StillLife/teaset.png')">
-                <img src="img/art/StillLife/teaset.png">
+                <img src="img/art/StillLife/teaset Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/StillLife/traction.png')">
-                <img src="img/art/StillLife/traction.png">
+                <img src="img/art/StillLife/traction Small.png">
             </div>
         </div>
         <h3>Portraits</h3>
         <div class="gallery-div">
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/AnneBoleyn.png')">
-                <img src="img/art/Celebrities/AnneBoleyn.png">
+                <img src="img/art/Celebrities/AnneBoleyn Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/AnneBoleynclrd.png')">
-                <img src="img/art/Celebrities/AnneBoleynclrd.png">
+                <img src="img/art/Celebrities/AnneBoleynclrd Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/BlackWidow.png')">
-                <img src="img/art/Celebrities/BlackWidow.png">
+                <img src="img/art/Celebrities/BlackWidow Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/BlackWidowcolored.png')">
-                <img src="img/art/Celebrities/BlackWidowcolored.png">
+                <img src="img/art/Celebrities/BlackWidowcolored Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/Adele.png')">
-                <img src="img/art/Celebrities/Adele.png">
+                <img src="img/art/Celebrities/Adele Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/BellatrixLestrange.png')">
-                <img src="img/art/Celebrities/BellatrixLestrange.png">
+                <img src="img/art/Celebrities/BellatrixLestrange Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/caradelevingne.png')">
-                <img src="img/art/Celebrities/caradelevingne.png">
+                <img src="img/art/Celebrities/caradelevingne Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/Cumberbatch.png')">
-                <img src="img/art/Celebrities/Cumberbatch.png">
+                <img src="img/art/Celebrities/Cumberbatch Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/Daenerys.png')">
-                <img src="img/art/Celebrities/Daenerys.png">
+                <img src="img/art/Celebrities/Daenerys Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/DaveGahan.png')">
-                <img src="img/art/Celebrities/DaveGahan.png">
+                <img src="img/art/Celebrities/DaveGahan Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/DrHouse.png')">
-                <img src="img/art/Celebrities/DrHouse.png">
+                <img src="img/art/Celebrities/DrHouse Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/Elsa.png')">
-                <img src="img/art/Celebrities/Elsa.png">
+                <img src="img/art/Celebrities/Elsa Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/GongYoo.png')">
-                <img src="img/art/Celebrities/GongYoo.png">
+                <img src="img/art/Celebrities/GongYoo Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/JeffBridges.png')">
-                <img src="img/art/Celebrities/JeffBridges.png">
+                <img src="img/art/Celebrities/JeffBridges Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/joel.png')">
-                <img src="img/art/Celebrities/joel.png">
+                <img src="img/art/Celebrities/joel Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/LunaLovegood.png')">
-                <img src="img/art/Celebrities/LunaLovegood.png">
+                <img src="img/art/Celebrities/LunaLovegood Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/LunaLovegoodclrd.png')">
-                <img src="img/art/Celebrities/LunaLovegoodclrd.png">
+                <img src="img/art/Celebrities/LunaLovegoodclrd Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/RDjr.png')">
-                <img src="img/art/Celebrities/RDjr.png">
+                <img src="img/art/Celebrities/RDjr Small.png">
             </div>
-            <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/Sharkira.png')">
-                <img src="img/art/Celebrities/Shakira.png">
+            <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/Shakira.png')">
+                <img src="img/art/Celebrities/Shakira Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/Solas.png')">
-                <img src="img/art/Celebrities/Solas.png">
+                <img src="img/art/Celebrities/Solas Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/TheMentalist.png')">
-                <img src="img/art/Celebrities/TheMentalist.png">
+                <img src="img/art/Celebrities/TheMentalist Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/TonyStark.png')">
-                <img src="img/art/Celebrities/TonyStark.png">
+                <img src="img/art/Celebrities/TonyStark Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/Tyrion.png')">
-                <img src="img/art/Celebrities/Tyrion.png">
+                <img src="img/art/Celebrities/Tyrion Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Celebrities/WoodyHarrelson.png')">
-                <img src="img/art/Celebrities/WoodyHarrelson.png">
+                <img src="img/art/Celebrities/WoodyHarrelson Small.png">
             </div>
         </div>
         <h2>Paintings</h2></br>
         <h3>Landscapes</h3>
         <div class="gallery-div">
             <div class="thumbnail" onclick="openLightbox('img/art/Paintings/gangneung.png')">
-                <img src="img/art/Paintings/gangneung.png">
+                <img src="img/art/Paintings/gangneung Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Paintings/gwangalli.png')">
-                <img src="img/art/Paintings/gwangalli.png">
+                <img src="img/art/Paintings/gwangalli Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Paintings/paris2.png')">
-                <img src="img/art/Paintings/paris2.png">
+                <img src="img/art/Paintings/paris2 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Paintings/sunrise2.png')">
-                <img src="img/art/Paintings/sunrise2.png">
+                <img src="img/art/Paintings/sunrise2 Small.png">
             </div>
         </div>
         <h3>Croisson ?</h3>
         <div class="gallery-div">
             <div class="thumbnail" onclick="openLightbox('img/art/Paintings/croissant1.png')">
-                <img src="img/art/Paintings/croissant1.png">
+                <img src="img/art/Paintings/croissant1 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Paintings/croissant2.png')">
-                <img src="img/art/Paintings/croissant2.png">
+                <img src="img/art/Paintings/croissant2 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Paintings/croissant3.png')">
-                <img src="img/art/Paintings/croissant3.png">
+                <img src="img/art/Paintings/croissant3 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Paintings/croissant4.png')">
-                <img src="img/art/Paintings/croissant4.png">
+                <img src="img/art/Paintings/croissant4 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Paintings/croissant5.png')">
-                <img src="img/art/Paintings/croissant5.png">
+                <img src="img/art/Paintings/croissant5 Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Paintings/croissant6.png')">
-                <img src="img/art/Paintings/croissant6.png">
+                <img src="img/art/Paintings/croissant6 Small.png">
             </div>
         </div>
         <h2>Digital drawings</h2></br>
         <div class="gallery-div">
             <div class="thumbnail" onclick="openLightbox('img/art/Digital/gongyoo.png')">
-                <img src="img/art/Digital/gongyoo.png">
+                <img src="img/art/Digital/gongyoo Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Digital/sinmina.PNG')">
-                <img src="img/art/Digital/sinmina.PNG">
+                <img src="img/art/Digital/sinmina Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Digital/beka.png','quick styled portrait of friend')">
-                <img src="img/art/Digital/beka.png">
+                <img src="img/art/Digital/beka Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Digital/mcconaughey.PNG')">
-                <img src="img/art/Digital/mcconaughey.PNG">
+                <img src="img/art/Digital/mcconaughey Small.png">
             </div>
             <div class="thumbnail" onclick="openLightbox('img/art/Digital/seoul.png', 'in progress')">
-                <img src="img/art/Digital/seoul.png">
+                <img src="img/art/Digital/seoul Small.png">
             </div>
         </div>
     </div>
